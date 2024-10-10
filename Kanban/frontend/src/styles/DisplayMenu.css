@@ -1,0 +1,46 @@
+.display-menu {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.display-button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 10px 15px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.display-icon,
+.down-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.menu-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  z-index: 10;
+}
+
+.menu-item {
+  margin-bottom: 10px;
+}
+
+.menu-item label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.menu-item select {
+  width: 100%;
+  padding: 5px;
+}

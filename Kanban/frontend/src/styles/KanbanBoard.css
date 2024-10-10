@@ -1,0 +1,12 @@
+.kanban-board {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  .columns-container {
+    display: flex;
+    overflow-x: auto;
+    flex-grow: 1;
+  }
